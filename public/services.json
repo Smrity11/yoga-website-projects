@@ -1,0 +1,134 @@
+[
+    {
+        "id":1,
+        "category": "Flow",
+        "image" : "",
+        "title": "Yoga and Mindfulness Retreat",
+        "description": "Join us for a rejuvenating yoga and mindfulness retreat. Discover inner peace and balance through yoga sessions, meditation, and nature walks.",
+        "trainers": {
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlEm2irXixxeGhPGlKXQ6f_y3dpBJuTI4mqA&usqp=CAU",
+            "name": "Samantha Johnson"
+        },
+        "registration_date": "2023-11-15",
+        "event_date": "2024-01-10",
+        "duration": "3 days",
+        "location": "Tranquil Valley Retreat Center, Anytown, USA",
+        "ticket_price": "$350",
+        "benefits": [
+            "Enhance flexibility and strength",
+            "Improve mental clarity and focus",
+            "Connect with like-minded individuals",
+            "Relax and unwind in a serene environment"
+        ]
+    },
+    {
+        "id":2,
+        "category": "Yoga",
+        "image" : "",
+        "title": "Sunrise Yoga by the Beach",
+        "description": "Start your day with energizing sunrise yoga sessions by the beach. Breathe in the fresh sea air and rejuvenate your body and soul.",
+        "trainers": {
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSldLxiWb6KpSuc2w6TZmg3DZhoNi0NeZrKcsj1Cbkf00eceAwUZ3KHEtxmeHyFqpnUfU0&usqp=CAU",
+            "name": "Michael Anderson"
+        },
+        "registration_date": "2023-12-05",
+        "event_date": "2024-02-20",
+        "duration": "2 hours",
+        "location": "Serenity Beach, Seaside Town, USA",
+        "ticket_price": "$25",
+        "benefits": [
+            "Boost energy levels for the day",
+            "Enhance flexibility and balance",
+            "Enjoy the calming effects of nature",
+            "Suitable for all fitness levels"
+        ]
+    },
+    {
+        "id":3,
+        "category": "Yoga",
+        "image" : "",
+        "title": "Yoga for Stress Relief Workshop",
+        "description": "Learn yoga poses and techniques to manage stress and improve mental well-being. Suitable for all levels, beginners welcome!",
+        "trainers": {
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlxIQldOVL83NgrBASwbOsZSs_3-KlqaFhA3SBNb_5bFta87A5s2hk-qsdoCXLvNb0d6k&usqp=CAU",
+            "name": "Emily Martinez"
+        },
+        "registration_date": "2024-02-10",
+        "event_date": "2024-04-05",
+        "duration": "1.5 hours",
+        "location": "Harmony Yoga Studio, Downtown, USA",
+        "ticket_price": "$30",
+        "benefits": [
+            "Reduce stress and anxiety",
+            "Promote relaxation and calmness",
+            "Learn practical stress management techniques",
+            "Improve overall well-being"
+        ]
+    },
+    {
+        "id":4,
+        "category": "Yoga",
+        "title": "Family Yoga Fun Day",
+        "image" : "",
+        "description": "A day of yoga activities designed for families. Enjoy partner poses, games, and relaxation exercises in a fun and inclusive environment.",
+        "trainers": {
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1YGNNaoNcII4mFil8LmQqVwGX2L1ZeCnWkTk8Lu5k0hfS_donNufntcIhDtMh49CQHY&usqp=CAU",
+            "name": "Daniel Lee"
+        },
+        "registration_date": "2024-03-15",
+        "event_date": "2024-05-10",
+        "duration": "4 hours",
+        "location": "Central Park, Anytown, USA",
+        "ticket_price": "$40 (per family)",
+        "benefits": [
+            "Strengthen family bonds through shared activities",
+            "Enhance flexibility and balance for all family members",
+            "Promote mindfulness and relaxation",
+            "Have fun and enjoy quality family time"
+        ]
+    },
+    {
+        "id":5,
+        "category": "kundalini",
+        "title": "Yoga and Nutrition Workshop",
+        "image" : "",
+        "description": "Combine yoga with a focus on nutrition. Learn about mindful eating, healthy recipes, and yoga practices that support overall well-being.",
+        "trainers": {
+            "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1Th9S4OooEKbP0LW5AjHQdxd4BVFmiX91bfmy3TPhrMIjEOqX",
+            "name": "Olivia Turner"
+        },
+        "registration_date": "2024-04-20",
+        "event_date": "2024-06-15",
+        "duration": "2.5 hours",
+        "location": "Wellness Center, Anytown, USA",
+        "ticket_price": "$35",
+        "benefits": [
+            "Understand the connection between yoga and nutrition",
+            "Learn practical tips for healthier eating habits",
+            "Practice yoga poses that aid digestion and boost metabolism",
+            "Receive personalized nutrition advice"
+        ]
+    },
+    {
+        "id":6,
+        "category": "Yoga",
+        "title": "Yoga and Meditation Retreat",
+        "image" : "",
+        "description": "Immerse yourself in a weekend of yoga and meditation. Explore various meditation techniques and yoga styles to enhance spiritual growth.",
+        "trainers": {
+            "picture": "https://images.squarespace-cdn.com/content/v1/56f6be60c2ea51b69de70884/1560140630069-1BXMO5QVZ6POD2D5M0XM/Serena-Yoga+Branding-Photo+Session-Renton%2C+WA-Janelle+Elaine+Photography-57.jpg",
+            "name": "Sophia Patel"
+        },
+        "registration_date": "2024-05-25",
+        "event_date": "2024-07-20",
+        "duration": "2 days",
+        "location": "Tranquil Retreat Center, Anytown, USA",
+        "ticket_price": "$300",
+        "benefits": [
+            "Deepen meditation practice",
+            "Explore different yoga and meditation traditions",
+            "Find inner peace and tranquility",
+            "Connect with a supportive community"
+        ]
+    }
+]
