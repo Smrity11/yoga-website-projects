@@ -8,13 +8,16 @@ import Blog from "../pages/blog/Blog";
 import Trainers from "../pages/trainers/Trainers";
 import Shop from "../pages/shop/Shop";
 import Services from "../pages/services/Services";
-import PrivateRoute from "./PrivateRoute";
+// import PrivateRoute from "./PrivateRoute";
 import Class from "../pages/classws/Class";
+import ShowServices from "../components/ShowServices";
+import Error from "../components/Error";
 // import PrivateRoute from "./PrivateRoute";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",
@@ -37,19 +40,25 @@ const router = createBrowserRouter([
       {
         path: "/trainers",
         element: <Trainers></Trainers>,
+        loader:() => fetch("services.json")
       },
       {
         path: "/shop",
-        element: <PrivateRoute><Shop></Shop></PrivateRoute>,
+        element:<Shop></Shop>,
       },
       {
         path: "/class",
-        element: <PrivateRoute><Class></Class></PrivateRoute>,
+        element: <Class></Class>,
       },
       {
         path: "/services",
         element: <Services></Services>,
+        loader:() => fetch("services.json")
       },
+      {
+        path: "/service/:id",
+        element: <ShowServices></ShowServices>,
+      }
     ],
   },
 ]);

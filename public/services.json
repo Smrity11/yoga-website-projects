@@ -2,7 +2,7 @@
     {
         "id":1,
         "category": "Flow",
-        "image" : "",
+        "image" : "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/blog_09-600x450.jpg",
         "title": "Yoga and Mindfulness Retreat",
         "description": "Join us for a rejuvenating yoga and mindfulness retreat. Discover inner peace and balance through yoga sessions, meditation, and nature walks.",
         "trainers": {
@@ -24,7 +24,7 @@
     {
         "id":2,
         "category": "Yoga",
-        "image" : "",
+        "image" : "https://media.istockphoto.com/id/1459538271/photo/yoga-exercise-and-meditation-at-the-beach-with-a-woman-in-prayer-position-for-zen-calm-and.webp?s=1024x1024&w=is&k=20&c=VffIUblCb8c3rxtBWXuCnvoUOnZ8Oy6Dm0QLce7sR4g=",
         "title": "Sunrise Yoga by the Beach",
         "description": "Start your day with energizing sunrise yoga sessions by the beach. Breathe in the fresh sea air and rejuvenate your body and soul.",
         "trainers": {
@@ -46,7 +46,7 @@
     {
         "id":3,
         "category": "Yoga",
-        "image" : "",
+        "image" : "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_021-600x450.jpg",
         "title": "Yoga for Stress Relief Workshop",
         "description": "Learn yoga poses and techniques to manage stress and improve mental well-being. Suitable for all levels, beginners welcome!",
         "trainers": {
@@ -69,7 +69,7 @@
         "id":4,
         "category": "Yoga",
         "title": "Family Yoga Fun Day",
-        "image" : "",
+        "image" : "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/blog_03-600x450.jpg",
         "description": "A day of yoga activities designed for families. Enjoy partner poses, games, and relaxation exercises in a fun and inclusive environment.",
         "trainers": {
             "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1YGNNaoNcII4mFil8LmQqVwGX2L1ZeCnWkTk8Lu5k0hfS_donNufntcIhDtMh49CQHY&usqp=CAU",
@@ -91,7 +91,7 @@
         "id":5,
         "category": "kundalini",
         "title": "Yoga and Nutrition Workshop",
-        "image" : "",
+        "image" : "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/event_07-600x450.jpg",
         "description": "Combine yoga with a focus on nutrition. Learn about mindful eating, healthy recipes, and yoga practices that support overall well-being.",
         "trainers": {
             "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1Th9S4OooEKbP0LW5AjHQdxd4BVFmiX91bfmy3TPhrMIjEOqX",
@@ -113,7 +113,7 @@
         "id":6,
         "category": "Yoga",
         "title": "Yoga and Meditation Retreat",
-        "image" : "",
+        "image" : "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/blog_08-600x450.jpg",
         "description": "Immerse yourself in a weekend of yoga and meditation. Explore various meditation techniques and yoga styles to enhance spiritual growth.",
         "trainers": {
             "picture": "https://images.squarespace-cdn.com/content/v1/56f6be60c2ea51b69de70884/1560140630069-1BXMO5QVZ6POD2D5M0XM/Serena-Yoga+Branding-Photo+Session-Renton%2C+WA-Janelle+Elaine+Photography-57.jpg",
@@ -130,5 +130,142 @@
             "Find inner peace and tranquility",
             "Connect with a supportive community"
         ]
+    },
+    {
+        "id": 7,
+        "category": "Hatha Yoga",
+        "title": "Hatha Yoga for Beginners",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_10-600x450.jpg",
+        "description": "Discover the fundamentals of Hatha Yoga in this beginner-friendly workshop. Learn basic poses, breathing techniques, and relaxation methods.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_03-270x340.jpg",
+            "name": "Jenifer Mueller"
+        },
+        "registration_date": "2024-06-10",
+        "event_date": "2024-08-05",
+        "duration": "2 hours",
+        "location": "Harmony Yoga Studio, Downtown, USA",
+        "ticket_price": "$20",
+        "benefits": [
+            "Build strength and flexibility",
+            "Improve posture and balance",
+            "Relieve stress and tension",
+            "Enhance overall well-being"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Vinyasa Yoga",
+        "title": "Vinyasa Flow Workshop",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_06.jpg",
+        "description": "Experience the fluidity of Vinyasa Yoga in this workshop. Connect breath with movement, flow through poses, and enjoy a rejuvenating practice.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_071-270x340.jpg",
+            "name": "Jane Doe"
+        },
+        "registration_date": "2024-07-15",
+        "event_date": "2024-09-10",
+        "duration": "1.5 hours",
+        "location": "Serenity Yoga Center, Seaside Town, USA",
+        "ticket_price": "$25",
+        "benefits": [
+            "Promote cardiovascular health",
+            "Increase flexibility and endurance",
+            "Focus the mind and enhance concentration",
+            "Encourage creative expression through movement"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Yin Yoga",
+        "title": "Yin Yoga and Mindfulness Retreat",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_09-600x450.jpg",
+        "description": "Delve into deep relaxation with Yin Yoga. Experience long-held, passive poses combined with mindfulness practices to release tension and find inner peace.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_15-270x340.jpg",
+            "name": "Isabel Rodriguez"
+        },
+        "registration_date": "2024-08-20",
+        "event_date": "2024-10-15",
+        "duration": "2 days",
+        "location": "Tranquil Oasis Retreat, Anytown, USA",
+        "ticket_price": "$250",
+        "benefits": [
+            "Stimulate energy flow in the body",
+            "Enhance joint mobility and flexibility",
+            "Calm the mind and reduce anxiety",
+            "Improve deep tissue hydration and flexibility"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Prenatal Yoga",
+        "title": "Prenatal Yoga for Expecting Mothers",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_051-600x450.jpg",
+        "description": "Nurture your body and baby with gentle prenatal yoga. Practice safe and beneficial poses, breathing exercises, and relaxation techniques for a healthy pregnancy.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_141-270x340.jpg",
+            "name": "Michelle Adams"
+        },
+        "registration_date": "2024-09-10",
+        "event_date": "2024-11-05",
+        "duration": "1.5 hours",
+        "location": "Blossom Yoga Studio, Anytown, USA",
+        "ticket_price": "$30",
+        "benefits": [
+            "Alleviate common pregnancy discomforts",
+            "Strengthen pelvic muscles and improve balance",
+            "Promote relaxation and reduce stress",
+            "Connect with other expectant mothers"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "AcroYoga",
+        "title": "AcroYoga Playshop: Trust and Balance",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/class_08-600x420.jpg",
+        "description": "Explore the playful side of yoga with AcroYoga. Learn partner poses, transitions, and communication techniques to build trust, strength, and balance.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_081-270x340.jpg",
+            "name": "Jason and Lisa",
+            "partner_picture": "https://example.com/acroyoga-trainer-partner.jpg",
+            "partner_name": "Sarah and Mark"
+        },
+        "registration_date": "2024-10-05",
+        "event_date": "2024-12-01",
+        "duration": "3 hours",
+        "location": "FlyHigh Yoga Studio, Anytown, USA",
+        "ticket_price": "$40",
+        "benefits": [
+            "Build core strength and stability",
+            "Enhance communication and trust with partners",
+            "Improve flexibility and coordination",
+            "Experience the joy of collaborative movement"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Yoga",
+        "title": "Full Moon Yoga Celebration",
+        "image": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/event_09-600x450.jpg",
+        "description": "Join us for a magical evening of yoga under the full moon. Connect with the lunar energy, practice gentle yoga, meditation, and celebrate the beauty of the night sky.",
+        "trainers": {
+            "picture": "https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/trainer_03-270x340.jpg",
+            "name": "Luna Grace"
+        },
+        "registration_date": "2024-11-15",
+        "event_date": "2024-11-20",
+        "duration": "2 hours",
+        "location": "Moonlit Gardens, Anytown, USA",
+        "ticket_price": "$35",
+        "benefits": [
+            "Harmonize with the natural cycles",
+            "Calm the mind and soothe the soul",
+            "Experience a sense of unity with nature",
+            "Enjoy a serene and peaceful atmosphere"
+        ]
     }
+    
+    
+    
 ]

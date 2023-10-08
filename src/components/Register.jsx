@@ -5,6 +5,7 @@ import { AuthContext } from "../providers/AuthProvider";
 const Register = () => {
   const {createUser} = useContext(AuthContext)
 
+
     const HandleRegister = e =>{
 
         e.preventDefault()
@@ -17,6 +18,12 @@ const Register = () => {
     const password =form.get("password")
     console.log(name,photo,email,password);
 
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
+    const isPasswordValid = passwordRegex.test(password);
+    if (!isPasswordValid) {
+      console.log("Invalid password. Please check the requirements.");
+      return;
+    }
     createUser(email,password,photo,name)
     .then((result) => {
       // Signed up 
