@@ -41,7 +41,7 @@ const Navbar = () => {
       </li>
       <li className="text-lg">
         <NavLink
-          to="/classes"
+          to="/event"
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
@@ -51,7 +51,7 @@ const Navbar = () => {
           }
         >
           {" "}
-          Classes
+          Events
         </NavLink>
       </li>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
       </li>
       <li className="text-lg">
         <NavLink
-          to="/shop"
+          to="/aboutus"
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
@@ -98,7 +98,7 @@ const Navbar = () => {
           }
         >
           {" "}
-          Shop
+          About Us
         </NavLink>
       </li>
     </>
@@ -131,12 +131,12 @@ const Navbar = () => {
               {AllServices}
             </ul>
           </div>
-          <div className="flex gap-3 items-center">
+          <div className="flex gap[0px] md:gap-3 items-center">
             <img
-              className="w-[150px] h-[85px] text-white"
+              className="w-[100px] h-[60px] md:w-[150px] md:h-[85px] text-white"
               src="https://i.ibb.co/MChLttR/images-removebg-preview.png"
             ></img>
-            <h2 className="text-2xl">
+            <h2 className="text-lg md:text-2xl">
               L<span className="text-fuchsia-400 font-bold">A</span>SK
               <span className="text-fuchsia-400 font-bold">A</span> YOGA
             </h2>
@@ -148,8 +148,16 @@ const Navbar = () => {
         <div className="navbar-end">
           {user ? (
             <>
-              <p>{user.name}</p>
-              <button onClick={handleLogOut} className="btn">
+             <div className="grid justify-center items-center mx-auto ">
+             <div className="avatar online mx-auto">
+  <div className="w-11 rounded-full">
+    <img src={user?.photo} />
+  </div>
+</div>
+             <p>{user?.email}</p>
+             </div>
+              
+              <button onClick={handleLogOut} className="btn rounded-full w-24 text-white  bg-[#292B2B] border-fuchsia-400">
                 Sign Out
               </button>
             </>

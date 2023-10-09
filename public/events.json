@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Yoga Retreat",
+        "title": "Mindful Yoga Retreat",
+        "image":"https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/blog_01-600x450.jpg",
+        "description": "Join us for a rejuvenating yoga retreat focused on mindfulness and relaxation. Experience inner peace and tranquility through yoga and meditation sessions.",
+        "time": "10:00 AM - 4:00 PM",
+        "date": "2023-11-15",
+        "location": "Serene Valley Yoga Center",
+        "preparation_description": "Please wear comfortable yoga attire and bring your own yoga mat. It's advisable to have a light meal at least 2 hours before the session."
+       
+    },
+    {
+        "id": 2,
+        "name": "Sunrise Yoga",
+        "title": "Sunrise Yoga Session",
+        "image":"https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/blog_09-600x450.jpg",
+        "description": "Start your day with a refreshing yoga session at sunrise. Connect with nature, stretch your body, and invigorate your senses as you welcome the new day.",
+        "time": "6:00 AM - 7:30 AM",
+        "date": "2023-12-01",
+        "location": "Beachside Yoga Point",
+        "preparation_description": "Wear comfortable clothing suitable for yoga practice. Bring a water bottle, sunscreen, and a beach towel or yoga mat. All levels are welcome, including beginners."
+      
+    }
+    ,
+    
+        {
+            "id": 3,
+            "name": "Yoga and Meditation Workshop",
+            "title": "Finding Inner Peace",
+            "image":"https://nirvana.axiomthemes.com/wp-content/uploads/2017/02/video-370x370.jpg",
+            "description": "Discover the power of yoga and meditation in finding inner peace and emotional balance. Learn practical techniques to incorporate mindfulness into your daily life.",
+            "time": "2:00 PM - 5:00 PM",
+            "date": "2023-11-25",
+            "location": "Tranquil Lotus Wellness Center",
+            "preparation_description": "Comfortable clothing is recommended. Yoga mats and meditation cushions will be provided. All levels of experience are welcome."
+           
+    
+        },
+        {
+            "id": 4,
+            "name": "Family Yoga Day",
+            "title": "Yoga for All Ages",
+            "image":"https://nirvana.axiomthemes.com/wp-content/uploads/2017/02/image-15-370x370.jpg",
+            "description": "Celebrate the joy of yoga with your family! Participate in fun-filled yoga sessions suitable for all ages. Strengthen family bonds while promoting health and well-being.",
+            "time": "10:30 AM - 12:00 PM",
+            "date": "2023-12-10",
+            "location": "Harmony Park",
+            "preparation_description": "Wear comfortable clothing suitable for movement. Bring yoga mats or picnic blankets for your family. No prior yoga experience is necessary."
+           
+    
+        },
+        {
+            "id": 5,
+            "name": "Yoga and Nutrition Workshop",
+            "title": "Balanced Living",
+            "image":"https://nirvana.axiomthemes.com/wp-content/uploads/2016/09/image-2-1170x658.jpg",
+            "description": "Explore the connection between yoga and nutrition. Learn how to nourish your body, mind, and soul through mindful eating. Includes yoga practice and nutrition guidance.",
+            "time": "1:30 PM - 4:30 PM",
+            "date": "2024-01-05",
+            "location": "Holistic Health Hub",
+            "preparation_description": "Comfortable clothing is recommended for yoga practice. Bring a notebook and pen for nutrition insights. Light snacks and refreshments will be provided."
+           
+    
+        },
+        {
+            "id": 6,
+            "name": "Yoga for Stress Relief",
+            "title": "Calm the Mind",
+            "image":"https://nirvana.axiomthemes.com/wp-content/uploads/2016/09/image-3-1170x658.jpg",
+            "description": "Experience gentle yoga and meditation techniques aimed at reducing stress and promoting relaxation. Learn how to manage daily stressors and cultivate inner peace.",
+            "time": "6:00 PM - 7:30 PM",
+            "date": "2024-02-15",
+            "location": "Serenity Yoga Studio",
+            "preparation_description": "Wear comfortable, loose-fitting clothing. Yoga mats and props will be provided. No prior yoga experience is necessary. Please arrive a few minutes early to settle in."
+           
+    
+        },
+        {
+            "id": 7,
+            "name": "Yoga and Nature Retreat",
+            "title": "Harmony with Nature",
+            "image":"https://nirvana.axiomthemes.com/wp-content/uploads/2017/02/promo-1.png",
+            "description": "Immerse yourself in the beauty of nature while deepening your yoga practice. Enjoy outdoor yoga sessions, guided hikes, and mindfulness activities in a serene natural setting.",
+            "time": "9:00 AM - 4:00 PM",
+            "date": "2024-03-20",
+            "location": "Tranquil Woods Retreat Center",
+            "preparation_description": "Dress in layers for changing weather conditions. Bring sturdy hiking shoes, a water bottle, and a yoga mat. Healthy vegetarian meals and snacks will be provided."
+           
+    
+        },
+        {
+            "id": 8,
+            "name": "Yoga for Creativity Workshop",
+            "title": "Awaken Your Creative Spirit",
+            "image":"https://wp.nootheme.com/yogi/wp-content/uploads/2015/04/event_08-600x450.jpg",
+            "description": "Tap into your creativity through yoga, meditation, and artistic expression. Learn how to channel your creative energy and enhance your problem-solving skills.",
+            "time": "1:00 PM - 4:00 PM",
+            "date": "2024-04-10",
+            "location": "Creative Flow Studio",
+            "preparation_description": "Wear comfortable clothing suitable for movement. All art supplies will be provided. No prior yoga or artistic experience is necessary."
+           
+        }
+    
+    
+]

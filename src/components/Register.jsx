@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
+
+import { Link, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
+import swal from "sweetalert";
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
   const {createUser} = useContext(AuthContext)
@@ -25,16 +28,36 @@ const Register = () => {
       return;
     }
     createUser(email,password,photo,name)
+    
     .then((result) => {
+      const createdUser = result.user;
+      profileUpdate(name, photo, createdUser);
+      Navigate("/");
       // Signed up 
       const user = result.user;
      console.log(user);
+     swal("Welcome", "Registration successfully", "success");
+
     })
     .catch((error) => {
       const errorMessage = error.message;
       console.log(errorMessage);
+      swal("Failed", " Please fill out all field ", "error");
     });
     }
+    const profileUpdate = (name, photo, createdUser) => {
+      updateProfile(createdUser, {
+        displayName: name,
+        photoURL: photo,
+      })
+        .then((result) => {
+          const createdUser = result.user;
+          console.log(createdUser);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    };
     return (
         <div>
           

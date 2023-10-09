@@ -1,0 +1,44 @@
+[
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7q9c4ZVhb-h_R_9mZZ8SaA8YHeNbE66ORSQ&usqp=CAU",
+        "category": "Yoga Poses",
+        "title": "Benefits of Surya Namaskar",
+        "content": "Surya Namaskar, also known as Sun Salutation, is a sequence of yoga postures that...",
+        "author": "Yoga Guru",
+        "date": "2023-10-09"
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHgGvVX-BqHXO7QsUsZliyh3AnXPMFuxvmvg&usqp=CAU",
+        "category": "Meditation",
+        "title": "Mindfulness Meditation Techniques",
+        "content": "Mindfulness meditation is a practice that helps you focus on the present moment...",
+        "author": "Meditation Master",
+        "date": "2023-10-08"
+    }
+,{
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhMscq5IgmxPmZruu3Uj3NGQdA4nIJXA_MA&usqp=CAU",
+    "category": "Yoga Tips",
+    "title": "Essential Yoga Props for Beginners",
+    "content": "Yoga props are great tools for beginners as they help in improving alignment...",
+    "author": "Yoga Enthusiast",
+    "date": "2023-10-07"
+}
+,{
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0k8E_saS064vhq4ZEDytgK4HMvmvihRuNzg&usqp=CAU",
+    "category": "Yoga Philosophy",
+    "title": "Understanding the Eight Limbs of Yoga",
+    "content": "The Eight Limbs of Yoga, also known as Ashtanga Yoga, are a set of guidelines...",
+    "author": "Yoga Philosopher",
+    "date": "2023-10-06"
+}
+,{
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKEHoS7wD8Fqm4_V9LOS_V3geu18G2C-ZDow&usqp=CAU",
+    "category": "Yoga Lifestyle",
+    "title": "Incorporating Yoga into Your Daily Routine",
+    "content": "Yoga isn't just an exercise; it's a lifestyle. Learn how to incorporate yoga into your daily routine...",
+    "author": "Yoga Lifestyle Coach",
+    "date": "2023-10-05"
+}
+    
+    
+]

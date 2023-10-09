@@ -21,7 +21,7 @@ const Welcome = () => {
              <div className="grid grid-cols-1 md:grid-cols-5 gap-10items-center py-[100px]">
         <div className="space-y-4 col-span-3">
         <h2
-        data-aos="fade-right"
+        // data-aos="fade-right"
          className="mb-9 text-3xl font-bold hover:underline ">WELCOME TO L<span className='text-fuchsia-500'>A</span>SK<span className='text-fuchsia-500'>A</span></h2>
         <p className="text-lg text-slate-700">LASKA is founded with our passion for yoga and we would love to spread that love to more and more people.</p>
         <p  className="text-lg text-slate-700">At Laska, we do not only teach yoga, we seek to create a yoga community where we can share daily matters, stress at work or problems in life. Yoga is the great recipe to communicate and balance your mind and body.</p>

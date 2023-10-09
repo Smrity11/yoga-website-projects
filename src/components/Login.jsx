@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
+import swal from "sweetalert";
 const Login = () => {
   const {signIn,googleSignIn } = useContext(AuthContext)
   const HandleLogin = (e) => {
@@ -17,11 +18,14 @@ const Login = () => {
     .then((result) => {
       // Signed up 
       const user = result.user;
-     console.log(user);
+      console.log(user);
+      swal("Welcome", "Login successfully", "success");
     })
     .catch((error) => {
       const errorMessage = error.message;
       console.log(errorMessage);
+      swal("Failed", "Login Failed", "error");
+
     })
     }
     const handleGoogleSignIn= () =>{

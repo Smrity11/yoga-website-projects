@@ -6,13 +6,14 @@ import Home from "../pages/home/Home";
 import Register from "../components/Register";
 import Blog from "../pages/blog/Blog";
 import Trainers from "../pages/trainers/Trainers";
-import Shop from "../pages/shop/Shop";
+import AboutUs from "../pages/aboutUs/AboutUs";
 import Services from "../pages/services/Services";
 // import PrivateRoute from "./PrivateRoute";
-import Class from "../pages/classws/Class";
+import Events from "../pages/events/Events";
 import ShowServices from "../components/ShowServices";
 import Error from "../components/Error";
-// import PrivateRoute from "./PrivateRoute";
+import PrivateRoute from "./PrivateRoute";
+import CommingSoon from "../components/CommingSoon";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,28 +37,35 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>,
+        loader:() => fetch("blog.json")
+
       },
       {
         path: "/trainers",
-        element: <Trainers></Trainers>,
+        element:<PrivateRoute><Trainers></Trainers></PrivateRoute> ,
         loader:() => fetch("services.json")
       },
       {
-        path: "/shop",
-        element:<Shop></Shop>,
+        path: "/aboutus",
+        element:<AboutUs></AboutUs>,
       },
       {
-        path: "/class",
-        element: <Class></Class>,
+        path: "/commingsoon",
+        element:<CommingSoon></CommingSoon>,
+      },
+      {
+        path: "/event",
+        element:<PrivateRoute> <Events></Events></PrivateRoute> ,
+        loader:() => fetch("events.json")
       },
       {
         path: "/services",
-        element: <Services></Services>,
+        element:<PrivateRoute> <Services></Services></PrivateRoute>,
         loader:() => fetch("services.json")
       },
       {
         path: "/service/:id",
-        element: <ShowServices></ShowServices>,
+        element:<PrivateRoute> <ShowServices></ShowServices></PrivateRoute>,
       }
     ],
   },
