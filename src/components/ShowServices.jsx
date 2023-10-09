@@ -68,7 +68,7 @@ const ShowServices = () => {
                 <div className="h-[460px] shadow-md bg-fuchsia-200 border border-fuchsia-700 grid justify-center text-center px-4 py-10">
                   <h1 className="text-3xl font-semibold ">Professional Plan</h1>
                   <p className="text-slate-500 mt-[-20px]">Price per week</p>
-                  <h1 className="font-bold text-fuchsia-800 text-3xl mt-[-20px] border-b-2 ">{singleData.ticket_price}</h1>
+                  <h1 className="font-bold text-fuchsia-800 text-3xl mt-[-20px] border-b-2 ">{singleData.ticket_price1}</h1>
                   <p className="text-slate-600">
                     I must explain to you how all this mistaken idea of
                     denouncing pleasure and praising pain
@@ -78,7 +78,7 @@ const ShowServices = () => {
                 <div className="h-[410px] shadow-md bg-fuchsia-100  border border-fuchsia-700 grid justify-center text-center px-4 py-10">
                   <h1 className="text-3xl font-semibold">Private Plan</h1>
                   <p className="text-slate-500 mt-[-20px]">Price per week</p>
-                  <h1 className="font-bold text-3xl  mt-[-20px] border-b-2 ">{singleData.ticket_price}</h1>
+                  <h1 className="font-bold text-3xl  mt-[-20px] border-b-2 ">{singleData.ticket_price2}</h1>
                   <p className="text-slate-600">
                     I must explain to you how all this mistaken idea of
                     denouncing pleasure and praising pain

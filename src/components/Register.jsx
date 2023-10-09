@@ -114,15 +114,19 @@ const Register = () => {
                   placeholder="password"
                   className="input input-bordered"
                 />
+              
+              </div>
+              <input required type="checkbox" /> <span>Accept Term & Conditions</span>
 
-                <div className="mt-3">
+              <div className="mt-3">
                   <small> Have an Account? </small>
                   <Link to="/login" className=" underline text-blue-500">
                     Login
                   </Link>
                 </div>
-              </div>
               <div className="form-control mt-6">
+              
+             <div className="form-control mt-6"></div>
                 <button className="btn hover:bg-cyan-300 border-none text-black bg-green-200">
                   Register
                 </button>

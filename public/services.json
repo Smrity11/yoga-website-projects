@@ -14,6 +14,8 @@
         "duration": "3 days",
         "location": "Tranquil Valley Retreat Center, Anytown, USA",
         "ticket_price": "$350",
+        "ticket_price1": "$400",
+        "ticket_price2": "$450",
         "benefits": [
             "Enhance flexibility and strength",
             "Improve mental clarity and focus",
@@ -36,6 +38,8 @@
         "duration": "2 hours",
         "location": "Serenity Beach, Seaside Town, USA",
         "ticket_price": "$25",
+        "ticket_price1": "$120",
+        "ticket_price2": "$200",
         "benefits": [
             "Boost energy levels for the day",
             "Enhance flexibility and balance",
@@ -58,6 +62,8 @@
         "duration": "1.5 hours",
         "location": "Harmony Yoga Studio, Downtown, USA",
         "ticket_price": "$30",
+        "ticket_price1": "$45",
+        "ticket_price2": "$70",
         "benefits": [
             "Reduce stress and anxiety",
             "Promote relaxation and calmness",
@@ -79,7 +85,9 @@
         "event_date": "2024-05-10",
         "duration": "4 hours",
         "location": "Central Park, Anytown, USA",
-        "ticket_price": "$40 (per family)",
+        "ticket_price": "$210 ",
+        "ticket_price1": "$240 ",
+        "ticket_price2": "$340 ",
         "benefits": [
             "Strengthen family bonds through shared activities",
             "Enhance flexibility and balance for all family members",
@@ -102,6 +110,8 @@
         "duration": "2.5 hours",
         "location": "Wellness Center, Anytown, USA",
         "ticket_price": "$35",
+        "ticket_price1": "$55",
+        "ticket_price2": "$80",
         "benefits": [
             "Understand the connection between yoga and nutrition",
             "Learn practical tips for healthier eating habits",
@@ -124,6 +134,8 @@
         "duration": "2 days",
         "location": "Tranquil Retreat Center, Anytown, USA",
         "ticket_price": "$300",
+        "ticket_price1": "$350",
+        "ticket_price2": "$400",
         "benefits": [
             "Deepen meditation practice",
             "Explore different yoga and meditation traditions",
@@ -146,6 +158,8 @@
         "duration": "2 hours",
         "location": "Harmony Yoga Studio, Downtown, USA",
         "ticket_price": "$20",
+        "ticket_price1": "$50",
+        "ticket_price2": "$100",
         "benefits": [
             "Build strength and flexibility",
             "Improve posture and balance",
@@ -167,7 +181,9 @@
         "event_date": "2024-09-10",
         "duration": "1.5 hours",
         "location": "Serenity Yoga Center, Seaside Town, USA",
-        "ticket_price": "$25",
+        "ticket_price": "$55",
+        "ticket_price1": "$78",
+        "ticket_price2": "$95",
         "benefits": [
             "Promote cardiovascular health",
             "Increase flexibility and endurance",
@@ -189,7 +205,9 @@
         "event_date": "2024-10-15",
         "duration": "2 days",
         "location": "Tranquil Oasis Retreat, Anytown, USA",
-        "ticket_price": "$250",
+        "ticket_price": "$255",
+        "ticket_price1": "$270",
+        "ticket_price2": "$320",
         "benefits": [
             "Stimulate energy flow in the body",
             "Enhance joint mobility and flexibility",
@@ -211,7 +229,9 @@
         "event_date": "2024-11-05",
         "duration": "1.5 hours",
         "location": "Blossom Yoga Studio, Anytown, USA",
-        "ticket_price": "$30",
+        "ticket_price": "$90",
+        "ticket_price1": "$144",
+        "ticket_price2": "$300",
         "benefits": [
             "Alleviate common pregnancy discomforts",
             "Strengthen pelvic muscles and improve balance",
@@ -236,6 +256,8 @@
         "duration": "3 hours",
         "location": "FlyHigh Yoga Studio, Anytown, USA",
         "ticket_price": "$40",
+        "ticket_price1": "$60",
+        "ticket_price2": "$140",
         "benefits": [
             "Build core strength and stability",
             "Enhance communication and trust with partners",
@@ -257,7 +279,9 @@
         "event_date": "2024-11-20",
         "duration": "2 hours",
         "location": "Moonlit Gardens, Anytown, USA",
-        "ticket_price": "$35",
+        "ticket_price": "$67",
+        "ticket_price1": "$105",
+        "ticket_price2": "$167",
         "benefits": [
             "Harmonize with the natural cycles",
             "Calm the mind and soothe the soul",

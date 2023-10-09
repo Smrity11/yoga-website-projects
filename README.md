@@ -104,7 +104,8 @@ The forEach loop iterates over the nums array and increments the count variable 
 
 # Laska
 
-## [LaskaLiveLink Here)
+## Laska
+[LaskaLiveLink Here](https://yoga-project-for-assignment.web.app/)
 
 
 Welcome to the Yoga Training Event Management Website! This website is designed to provide you with a seamless experience in managing your yoga training events, accessing class schedules, learning about our top yoga trainers, reading informative blogs, and more. Below are some of the website's key specialties and functionalities:
@@ -129,4 +130,4 @@ Welcome to the Yoga Training Event Management Website! This website is designed 
 
 ---
 
-Thank you for choosing our Yoga Training Event Management Website. We're committed to providing you with a holistic yoga experience and assisting you in your journey towards better health and well-being. Explore our website, enroll in classes, connect with our trainers, and enjoy our informative blog posts. Namaste!
+Thank you for choosing our Yoga Training Event Management Website. We're committed to providing you with a holistic yoga experience and assisting you in your journey towards better health and well-being. Explore our website, enroll in classes, connect with our trainers, and enjoy our informative blog posts.

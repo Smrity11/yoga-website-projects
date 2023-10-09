@@ -37,7 +37,7 @@ const Events = () => {
     <p className="border text-lg">{event.date}</p>
     <p className="border text-lg">{event.location}</p>
     <div className="card-actions w-full">
-    <Link to="commingsoon" className="w-full">
+    <Link to="/commingsoon" className="w-full">
     <button className="btn bg-fuchsia-600 w-full text-white font-semibold">Learn More</button>
 
     </Link>

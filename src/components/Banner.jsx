@@ -13,7 +13,7 @@ const Banner = () => {
       }, []);
     return (
         <div>
-            <div className="hero h-[400px]" style={{backgroundImage: 'url(https://www.ciiblog.in/wp-content/uploads/2021/06/Yoga-Blog-Cover-scaled.jpg)'}}>
+            <div className="hero h-[435px] md:h-[400px]" style={{backgroundImage: 'url(https://www.ciiblog.in/wp-content/uploads/2021/06/Yoga-Blog-Cover-scaled.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-end text-neutral-content mt-36 mr-0 lg:mr-[-700px]">
     <div className="max-w-md">

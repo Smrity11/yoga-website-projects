@@ -134,10 +134,10 @@ const Navbar = () => {
           </div>
           <div className="flex gap[0px] md:gap-3 items-center">
             <img
-              className="w-[100px] h-[60px] md:w-[150px] md:h-[85px] text-white"
+              className="w-[100px] ml-[-25px] md:ml-0 h-[60px] md:w-[150px] md:h-[85px] text-white"
               src="https://i.ibb.co/MChLttR/images-removebg-preview.png"
             ></img>
-            <h2 className="text-lg md:text-2xl">
+            <h2 className="text-lg ml-[-10px] md:ml-0 md:text-2xl">
               L<span className="text-fuchsia-400 font-bold">A</span>SK
               <span className="text-fuchsia-400 font-bold">A</span> YOGA
             </h2>
@@ -151,21 +151,21 @@ const Navbar = () => {
             <>
              <div className="grid justify-center items-center mx-auto ">
              <div className="avatar online mx-auto">
-  <div className="w-11 rounded-full">
+  <div className="w-7 md:w-11  rounded-full">
     <img src={user?.photoURL} />
   </div>
 </div>
-             <p>{user?.displayName}</p>
+             <p className="text-xs md:text-base">{user?.displayName}</p>
              </div>
               
-              <button onClick={handleLogOut} className="btn rounded-full w-24 text-white  bg-[#292B2B] border-fuchsia-400">
+              <button onClick={handleLogOut} className="btn rounded-lg md:rounded-full w-12 md:w-24 text-white text-xs lowercase md:text-base  bg-[#292B2B] border-fuchsia-400">
                 Sign Out
               </button>
             </>
           ) : (
             <Link
               to="/login"
-              className="btn rounded-full w-24 text-white  bg-[#292B2B] border-fuchsia-400"
+              className="btn rounded-lg text-xs md:text-base  md:rounded-full w-12 md:w-24 text-white  bg-[#292B2B] border-fuchsia-400"
             >
               Login
             </Link>

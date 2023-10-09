@@ -1,12 +1,5 @@
 /* eslint-disable react/prop-types */
 
-
-
-
-
-import { NavLink } from "react-router-dom";
-
-
 const ServiceData = ({service}) => {
     const {category,title,event_date,duration,image} =service
     return (
@@ -18,9 +11,7 @@ const ServiceData = ({service}) => {
     <h2 className="text-xl font-medium">{title}</h2>
     <p>Event Date: <span className="font-bold">{event_date}</span></p>
     <p>Duration: <span className="font-bold">{duration}</span></p>
-    <div className="card-actions ">
-      <NavLink className="w-full" to="/services/{id}"><button className="btn w-full border bg-fuchsia-600 text-white">Learn More</button></NavLink>
-    </div>
+    
   </div>
 </div>
         </div>
