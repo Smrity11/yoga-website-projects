@@ -4,6 +4,7 @@ import { AuthContext } from "../providers/AuthProvider";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+  console.log(user);
   const handleLogOut = () => {
     logOut();
   };
@@ -151,10 +152,10 @@ const Navbar = () => {
              <div className="grid justify-center items-center mx-auto ">
              <div className="avatar online mx-auto">
   <div className="w-11 rounded-full">
-    <img src={user?.photo} />
+    <img src={user?.photoURL} />
   </div>
 </div>
-             <p>{user?.email}</p>
+             <p>{user?.displayName}</p>
              </div>
               
               <button onClick={handleLogOut} className="btn rounded-full w-24 text-white  bg-[#292B2B] border-fuchsia-400">

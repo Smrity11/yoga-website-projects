@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 import swal from "sweetalert";
 const Login = () => {
+  const navigate = useNavigate();
   const {signIn,googleSignIn } = useContext(AuthContext)
   const HandleLogin = (e) => {
     
@@ -20,6 +21,7 @@ const Login = () => {
       const user = result.user;
       console.log(user);
       swal("Welcome", "Login successfully", "success");
+      navigate("/")
     })
     .catch((error) => {
       const errorMessage = error.message;
