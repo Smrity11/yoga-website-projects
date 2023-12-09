@@ -6,7 +6,7 @@
 javascript
 let greeting;
 greetign = {};
-console.log(greetign);
+console.log(greetign)
 
 
 - A: `{}`
